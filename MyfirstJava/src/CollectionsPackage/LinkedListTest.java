@@ -14,14 +14,16 @@ class LinkedListTest {
 
 		// Appending the new elements
 		// at the end of the list
+		//1,2,3,4:1
 		for (int i = 1; i <= n; i++)
 			ll.add(i);
+		   
 
 		// Printing elements
 		System.out.println(ll);
 
 		// Remove element at index 3
-		ll.remove(3);
+		ll.remove(3);//index
 
 		// Displaying the list after deletion
 		System.out.println(ll);

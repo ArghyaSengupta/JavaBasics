@@ -19,9 +19,10 @@ class ListOperations {
 
 		// Adding elements to object of List interface
 		// Custom inputs
-
-		l1.add(0, 1);
+//addition is different from replacement
+		l1.add(0, 1);//position,value
 		l1.add(1, 2);
+		l1.add(2, 2);
 
 		// Print the elements inside the object
 		System.out.println(l1);
@@ -34,11 +35,11 @@ class ListOperations {
 		// Again adding elements to object of List interface
 		// Custom inputs
 		l2.add(1);
-		l2.add(2);
-		l2.add(3);
+		l2.add(2);//
+		l2.add(3);//
 
 		// Will add list l2 from 1 index
-		l1.addAll(1, l2);
+		l1.addAll(1, l2);//size or memory isnot fixed
 
 		System.out.println(l1);
 
