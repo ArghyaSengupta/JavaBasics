@@ -1,4 +1,4 @@
-package CollectionsPackage;
+package collectionspackage;
 
 //Java program to Demonstrate List Interface
 

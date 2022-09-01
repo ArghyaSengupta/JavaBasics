@@ -1,4 +1,4 @@
-package SearchSort;
+package searchandsort;
 
 //Java program to demonstrate a Queue:FIRST IN FIRST OUT
 

@@ -1,4 +1,4 @@
-package CollectionsPackage;
+package collectionspackage;
 
 //Java program to Iterate the Elements
 //in an ArrayList
