@@ -39,7 +39,7 @@ public static void main(String[] args)
 	//o(n)-o(1)
 	//for(int i=0;i<n;i++) 
 	//{
-	if (isPrime(34))
+	if (isPrime(34))//data:34,info:number
 	{
 		System.out.println("true");
 	}
