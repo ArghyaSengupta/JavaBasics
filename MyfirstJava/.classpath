@@ -4,5 +4,24 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files/protobuf-java-3.19.4.jar"/>
 	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (1)/mongodb-driver-core-4.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (1)/bson-4.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (1)/bson-record-codec-4.7.1.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/mongodb-driver_2.12-2.5.0.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/scala-collection-compat_2.12-2.8.0.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/mongo-scala-bson_2.12-4.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/better-files_2.12-3.9.1.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/scala-reflect-2.12.12.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/scala-library-2.12.15.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/config-1.4.2.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/bson-4.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/reactor-core-3.2.22.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/mongodb-driver-reactivestreams-4.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/scala-logging_2.12-3.9.5.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/reactive-streams-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/mongodb-driver-core-4.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/mongo-scala-driver_2.12-4.7.0.jar"/>
+	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/bson-record-codec-4.7.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
