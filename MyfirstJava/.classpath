@@ -23,5 +23,6 @@
 	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/mongodb-driver-core-4.7.0.jar"/>
 	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/mongo-scala-driver_2.12-4.7.0.jar"/>
 	<classpathentry kind="lib" path="/Users/argsengu/Downloads/jar_files (2)/bson-record-codec-4.7.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
