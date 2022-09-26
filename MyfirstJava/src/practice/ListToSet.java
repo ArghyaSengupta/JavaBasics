@@ -8,12 +8,10 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 class ListToSet {
-	public static void main(String[] args)
-	{
-	
+	public static void main(String[] args) {
+
 		// adding elements to ArrayList object
 		ArrayList<String> ListToSet = new ArrayList<>();
-		
 
 		ListToSet.add("data structure");
 		ListToSet.add("competitive programming");
@@ -32,4 +30,3 @@ class ListToSet {
 		}
 	}
 }
-

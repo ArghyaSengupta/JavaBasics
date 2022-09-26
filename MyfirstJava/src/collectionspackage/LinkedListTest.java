@@ -4,8 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 class LinkedListTest {
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		// Size of the LinkedList
 		int n = 5;
 
@@ -14,16 +13,15 @@ class LinkedListTest {
 
 		// Appending the new elements
 		// at the end of the list
-		//1,2,3,4:1
+		// 1,2,3,4:1
 		for (int i = 1; i <= n; i++)
 			ll.add(i);
-		   
 
 		// Printing elements
 		System.out.println(ll);
 
 		// Remove element at index 3
-		ll.remove(3);//index
+		ll.remove(3);// index
 
 		// Displaying the list after deletion
 		System.out.println(ll);
@@ -33,4 +31,3 @@ class LinkedListTest {
 			System.out.print(ll.get(i) + " ");
 	}
 }
-

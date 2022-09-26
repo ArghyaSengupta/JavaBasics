@@ -7,8 +7,7 @@ package practice;
 class Parent {
 
 	// Method of parent class
-	void Print()
-	{
+	void Print() {
 
 		// Print statement
 		System.out.println("parent class");
@@ -20,7 +19,9 @@ class Parent {
 class subclass1 extends Parent {
 
 	// Method
-	void Print() { System.out.println("subclass1"); }
+	void Print() {
+		System.out.println("subclass1");
+	}
 }
 
 //Class 3
@@ -28,8 +29,7 @@ class subclass1 extends Parent {
 class subclass2 extends Parent {
 
 	// Method
-	void Print()
-	{
+	void Print() {
 
 		// Print statement
 		System.out.println("subclass2");
@@ -41,8 +41,7 @@ class subclass2 extends Parent {
 class Plymorphism2 {
 
 	// Main driver method
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 
 		// Creating object of class 1-parent objects
 		Parent a;
@@ -50,13 +49,10 @@ class Plymorphism2 {
 		// Now we will be calling print methods
 		// inside main() method
 
-		
-
-		a = new subclass2();//child class2-autocast
+		a = new subclass2();// child class2-autocast
 		a.Print();
-		
-		a = new subclass1();//child class1
+
+		a = new subclass1();// child class1
 		a.Print();
 	}
 }
-
