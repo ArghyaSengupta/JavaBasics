@@ -39,10 +39,11 @@ class Exception2 {
 		// Catch block to handle NumberFormatException
 		// exception Doesn't matches with
 		// ArithmeticException
-		catch (NumberFormatException ex) {
+		catch (Exception ex) {
 			// Display message when exception occurs
 			System.out.println(
 				"NumberFormatException is occurred");
+			ex.printStackTrace();
 		}
 		return res;
 	}
@@ -50,7 +51,7 @@ class Exception2 {
 	// Method 2
 	// Found appropriate Exception handler.
 	// i.e. matching catch block.
-	public static void main(String args[])
+	public static void main(String t[])
 	{
 
 		int a = 1;
@@ -59,7 +60,7 @@ class Exception2 {
 		// Try block to check for exceptions
 		//one try can have multiple catch statements
 		try {
-			int i = computeDivision(a, b);
+			 computeDivision(a, b);
 			//statement2-- exception of type1
 			//statement3 --- exception of type3
 		}
@@ -68,21 +69,23 @@ class Exception2 {
 		// exceptions
 	
 		//arithmatic exception is a child of Exception class
+		
+		 
+		//ex1
 		catch (ArithmeticException ex) {
 
 			// getMessage() will print description
 			// of exception(here / by zero)
 			System.out.println(ex.getMessage());
 		}
-
-
-
-       catch (Exception ex) {
+//ex2
+		catch (Exception ex) {
 			
 		}
+      
 		//one finally block per try catch block
 		finally {
-			
+			System.out.println("Jai Maharashtra");
 		}
 		
 		

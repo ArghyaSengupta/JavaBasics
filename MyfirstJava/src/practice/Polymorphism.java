@@ -28,7 +28,13 @@ class Helper {
  
 // Class 2
 // Main class
-class Polymorphism {
+class Polymorphism extends Manager{
+	
+	public Polymorphism() {
+		
+		super();
+		// TODO Auto-generated constructor stub
+	}
  
     // Main driver method
     public static void main(String[] args)

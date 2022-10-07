@@ -12,7 +12,7 @@ class MultithreadingDemo implements Runnable {
 class Multithread3 {
     public static void main(String[] args)
     {
-        int n = 8; // Number of threads
+        int n = 8; // Number of threads=8
         for (int i = 0; i < n; i++) {
         	//Thread is the parent class=new instance of type thread
             //typecasting:interface type to a class type
