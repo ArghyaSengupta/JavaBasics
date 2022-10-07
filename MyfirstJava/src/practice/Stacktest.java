@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.Stack;
 
 class Stacktest {
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		// Size of the stack
 		int n = 5;
 
@@ -31,4 +30,3 @@ class Stacktest {
 			System.out.print(s.get(i) + " ");
 	}
 }
-

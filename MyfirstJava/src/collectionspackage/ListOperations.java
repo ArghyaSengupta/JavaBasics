@@ -10,8 +10,7 @@ import java.util.*;
 class ListOperations {
 
 	// Main driver method
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 
 		// Creating an object of List interface
 		// implemented by the ArrayList class
@@ -20,7 +19,7 @@ class ListOperations {
 		// Adding elements to object of List interface
 		// Custom inputs
 //addition is different from replacement
-		l1.add(0, 1);//position,value
+		l1.add(0, 1);// position,value
 		l1.add(1, 2);
 		l1.add(2, 2);
 
@@ -39,7 +38,7 @@ class ListOperations {
 		l2.add(3);//
 
 		// Will add list l2 from 1 index
-		l1.addAll(1, l2);//size or memory isnot fixed
+		l1.addAll(1, l2);// size or memory isnot fixed
 
 		System.out.println(l1);
 
@@ -61,4 +60,3 @@ class ListOperations {
 		System.out.println(l1);
 	}
 }
-

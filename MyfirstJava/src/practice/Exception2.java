@@ -12,8 +12,7 @@ class Exception2 {
 	// It throws the Exception(ArithmeticException).
 	// Appropriate Exception handler is not found
 	// within this method.
-	static int divideByZero(int a, int b)
-	{
+	static int divideByZero(int a, int b) {
 
 		// this statement will cause ArithmeticException
 		// (/by zero)
@@ -25,8 +24,7 @@ class Exception2 {
 	// The runTime System searches the appropriate
 	// Exception handler in method also but couldn't have
 	// found. So looking forward on the call stack
-	static int computeDivision(int a, int b)
-	{
+	static int computeDivision(int a, int b) {
 
 		int res = 0;
 
@@ -41,9 +39,13 @@ class Exception2 {
 		// ArithmeticException
 		catch (Exception ex) {
 			// Display message when exception occurs
+
 			System.out.println(
 				"NumberFormatException is occurred");
 			ex.printStackTrace();
+
+			System.out.println("NumberFormatException is occurred");
+
 		}
 		return res;
 	}
@@ -51,45 +53,51 @@ class Exception2 {
 	// Method 2
 	// Found appropriate Exception handler.
 	// i.e. matching catch block.
-	public static void main(String t[])
-	{
+
+
+
+	public static void main(String args[]) {
+
 
 		int a = 1;
 		int b = 0;
 
 		// Try block to check for exceptions
-		//one try can have multiple catch statements
+		// one try can have multiple catch statements
 		try {
+
 			 computeDivision(a, b);
 			//statement2-- exception of type1
 			//statement3 --- exception of type3
+
+			int i = computeDivision(a, b);
+			// statement2-- exception of type1
+			// statement3 --- exception of type3
+
 		}
 
 		// Catch block to handle ArithmeticException
 		// exceptions
+
 	
 		//arithmatic exception is a child of Exception class
 		
 		 
 		//ex1
-		catch (ArithmeticException ex) {
 
-			// getMessage() will print description
-			// of exception(here / by zero)
-			System.out.println(ex.getMessage());
-		}
+
+		// arithmatic exception is a child of Exception class
+
+		
 //ex2
+		
 		catch (Exception ex) {
-			
+
 		}
-      
-		//one finally block per try catch block
+		// one finally block per try catch block
 		finally {
-			System.out.println("Jai Maharashtra");
+
 		}
-		
-		
-		
+
 	}
 }
-
