@@ -12,10 +12,10 @@ public class Manager extends Employee {
 		// object creation
 		// this creates an object of Employee parent class
 		// object : access all prop and beh of the parent class
-		newEmployee.test1 = 10;// protected prop
-		newEmployee.test2 = 10;// public prop
-		newEmployee.checkAccess1();// public beh -child2
-		newEmployee.checkAccess2();// protected beh
+		//newEmployee.test1 = 10;// protected prop
+		//newEmployee.test2 = 10;// public prop
+		////newEmployee.checkAccess1();// public beh -child2
+		//newEmployee.checkAccess2();// protected beh
 	}
 
 }

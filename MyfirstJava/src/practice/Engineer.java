@@ -9,7 +9,7 @@ public class Engineer extends Employee {
 		Engineer engineer = new Engineer();// child obj
 		Employee employee = new Employee();// parent obj
 
-		employee.checkAccess1();// call from child1
+		//employee.checkAccess1();// call from child1
 	}
 
 }
