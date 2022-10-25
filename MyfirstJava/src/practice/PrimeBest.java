@@ -20,7 +20,7 @@ class PrimeBest {
 		// Checking Prime
 		if (n == i)
 			return true;
-
+//1234
 		// Base cases
 		if (n % i == 0) {
 			return false;
