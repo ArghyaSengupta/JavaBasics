@@ -5,6 +5,7 @@ import java.io.StringWriter;
 
 public class StringProcessor {
     
+
     private final StringReader stringReader;
     private final StringWriter stringWriter;
     
