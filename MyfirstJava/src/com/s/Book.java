@@ -8,7 +8,7 @@ class Book {
 	String isbn;
 
 	public Book(String name, String authorName, int year, int price, String isbn) {
-		this.name = name;
+		this.name = name;//current value
 		this.authorName = authorName;
 		this.year = year;
         this.price = price;

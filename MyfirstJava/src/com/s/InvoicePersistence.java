@@ -1,5 +1,6 @@
 package com.s;
 
+//this is not a demo class of srp.purpose is to differentiate between the other 2 classes
 public class InvoicePersistence {
     Invoice invoice;
 
