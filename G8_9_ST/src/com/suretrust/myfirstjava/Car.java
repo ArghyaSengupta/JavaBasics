@@ -2,7 +2,7 @@ package com.suretrust.myfirstjava;//pkg name
 
 //is a Vehicle:inheritence
 //Car:child, Vehicle :Praent
-public class Car extends Vehicle{
+public class Car extends Vehicle implements TestInterface{
 
 	String object1="color";//Variable or object1
 	String brand="Tata";//variable or object 2
@@ -21,5 +21,11 @@ public class Car extends Vehicle{
 	
 	int numberOfTyres() {
 		return 4;
+	}
+
+	@Override
+	public String color() {
+		// TODO Auto-generated method stub
+		return "maroon";
 	}
 }

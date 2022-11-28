@@ -7,7 +7,7 @@ package com.suretrust.myfirstjava;//pkg name
 
 //Byke is a vehicle
 //methods are created in chilren classes
-public class Byke extends Vehicle {
+public class Byke extends Vehicle implements TestInterface{
 
 	int mileage=20;//object1 or variable1
 	String brake="1d";//object2 or variable 2
@@ -33,5 +33,11 @@ public class Byke extends Vehicle {
 		
 	
 }
+
+	@Override
+	public String color() {
+		// TODO Auto-generated method stub
+		return "blue";
+	}
 
 }
