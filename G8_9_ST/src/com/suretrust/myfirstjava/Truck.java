@@ -8,6 +8,24 @@ public class Truck extends Vehicle implements TestInterface{
 		return "red";
 	}
 
+	@Override
+	public String name() {
+		// TODO Auto-generated method stub
+		return "Mahindra";
+	}
+
+	@Override
+	public String type() {
+		// TODO Auto-generated method stub
+		return "diesel";
+	}
+
+	@Override
+	public int mileage() {
+		// TODO Auto-generated method stub
+		return 20;
+	}
+
 	
 
 }
