@@ -41,4 +41,11 @@ public class Car extends Vehicle implements TestInterface{
 		// TODO Auto-generated method stub
 		return 30;
 	}
+	public static void main(String args[]) {
+		
+		Vehicle v1= new Car();
+		//mileage
+		System.out.println("Mileage of car is:"+v1.mileage(12, 4));
+	}
+	
 }

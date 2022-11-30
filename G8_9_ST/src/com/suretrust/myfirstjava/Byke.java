@@ -6,6 +6,12 @@ public class Byke extends Vehicle implements TestInterface{
 	int mileage=20;//object1 or variable1
 	String brake="1d";//object2 or variable 2
 	public static void main(String args[]) {
+		
+		Vehicle v2= new Byke();
+		//mileage
+	    System.out.println(v2.mileage(20, 2));
+	    
+	    
 		Byke byke= new Byke();
 		byke.name();
 	}
