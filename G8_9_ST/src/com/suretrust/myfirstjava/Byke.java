@@ -5,11 +5,14 @@ public class Byke extends Vehicle implements TestInterface{
 
 	int mileage=20;//object1 or variable1
 	String brake="1d";//object2 or variable 2
+	private int noofwheels=4;
 	public static void main(String args[]) {
 		
+		//v2: vehicle + byke
+		//object represents Class and it's properties
 		Vehicle v2= new Byke();
 		//mileage
-	    System.out.println(v2.mileage(20, 2));
+	    System.out.println("mileage of byke is"+v2.mileage(20, 2));
 	    
 	    
 		Byke byke= new Byke();
@@ -38,6 +41,11 @@ public class Byke extends Vehicle implements TestInterface{
 	public int mileage() {
 		// TODO Auto-generated method stub
 		return 10;
+	}
+	//is encapsulating the feature
+	//using this method i can access it
+	public int wheels() {
+		return noofwheels;//private: cannot be accessed outside this class
 	}
 
 }
