@@ -3,6 +3,6 @@ package com.suretrust.myfirstjava;
 public interface Color {
 
 	//abstract
-	void primary();
-	void secondery();
+	void primaryColor();//reusable1
+	void seconderyColor();//reusable2
 }

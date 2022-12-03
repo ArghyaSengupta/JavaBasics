@@ -6,14 +6,14 @@ public class House implements Color, Painting{
 
 	//parent
 	@Override
-	public void primary() {
+	public void primaryColor() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	//parent
 	@Override
-	public void secondery() {
+	public void seconderyColor() {
 		// TODO Auto-generated method stub
 		
 	}
