@@ -4,13 +4,13 @@ package com.innerclass;
 public class TestInterface extends TestAbstract implements Test1, Test1.Test2 {
 
 	@Override
-	public void msg() {
+	public void msg2() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void msg2() {
+	public void msg() {
 		// TODO Auto-generated method stub
 		
 	}
@@ -20,6 +20,7 @@ public class TestInterface extends TestAbstract implements Test1, Test1.Test2 {
 		// TODO Auto-generated method stub
 		
 	}
+
 
 	
 
