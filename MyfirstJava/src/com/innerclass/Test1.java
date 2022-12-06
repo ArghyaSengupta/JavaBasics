@@ -8,4 +8,8 @@ public interface Test1 {
 		
 		void msg2();
 	}
+	
+	public interface Test3{
+		void msg3();
+	}
 }

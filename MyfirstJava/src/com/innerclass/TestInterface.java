@@ -1,13 +1,7 @@
 package com.innerclass;
 
 //inner interface being called
-public class TestInterface extends TestAbstract implements Test1, Test1.Test2 {
-
-	@Override
-	public void msg2() {
-		// TODO Auto-generated method stub
-		
-	}
+public class TestInterface extends Fruit implements Test1,Test1.Test2,Test1.Test3 {
 
 	@Override
 	public void msg() {
@@ -16,10 +10,18 @@ public class TestInterface extends TestAbstract implements Test1, Test1.Test2 {
 	}
 
 	@Override
-	void m1() {
+	public void msg2() {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void msg3() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
 
 
 	

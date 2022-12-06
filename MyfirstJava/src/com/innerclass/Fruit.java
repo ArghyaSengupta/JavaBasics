@@ -19,9 +19,12 @@ public class Fruit {
 		// TODO Auto-generated method stub
 
 		Fruit f= new Fruit();
+		
+		
 	Fruit.SourFruit sf=  f.new SourFruit();//will not know about sweet fruit
 	Fruit.SweetFruit swf=  f.new SweetFruit();//will not know about sourfruit
 	
 	}
 
 }
+
