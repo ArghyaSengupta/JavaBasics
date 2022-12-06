@@ -2,9 +2,12 @@ package com.innerclass;
 
 public class Bank {
 
+	int a=10;//non static -outter class member
 	//inner class1
-	public class Account1{
+	 public class Account1{
+		int a=10;
 		void msg() {
+			a=11;
 			System.out.println("I am account 1");
 		}
 	}
@@ -19,8 +22,9 @@ public class Bank {
 	 Bank b= new Bank();
 	 Bank.Account1 obj1=b.new Account1();
 	 Bank.Account2 obj2=b.new Account2();
-	 obj1.msg();
+	 obj1.msg();//internally call the object
 	 obj2.msg();
+	
  
 	}
 
