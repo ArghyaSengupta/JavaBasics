@@ -2,7 +2,7 @@ package com.innerclass;
 
 public class Bank {
 
-	int a=10;//non static -outter class member
+	int a=11;//non static -outter class member
 	//inner class1
 	 public class Account1{
 		int a=10;
