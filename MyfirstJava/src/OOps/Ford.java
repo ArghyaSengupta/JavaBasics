@@ -1,11 +1,14 @@
 package OOps;
-
+//parent class is car child class is ford
 public class Ford extends Car{
-
-	@Override
-	int mileage() {
-		// TODO Auto-generated method stub
-		return 10;
-	}
+	//here we are doing abstraction
+@Override
+int mileage() { //flowerbracket
+	return 20;
+}
+	
+	
+	
+	
 
 }
