@@ -7,5 +7,8 @@ public class Dormitory extends Stay implements StayInterface{
 		// TODO Auto-generated method stub
 		return 200;//actual
 	}
+	public int numberoffloors() {
+		return 4;
+	}
 
 }
