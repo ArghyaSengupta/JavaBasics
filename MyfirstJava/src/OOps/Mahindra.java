@@ -8,4 +8,10 @@ public class Mahindra extends Car{
 		return 20;
 	}
 
+	@Override
+	String color() {
+		// TODO Auto-generated method stub
+		return "blue";
+	}
+
 }

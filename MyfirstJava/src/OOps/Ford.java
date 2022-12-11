@@ -8,4 +8,10 @@ public class Ford extends Car{
 		return 10;
 	}
 
+	@Override
+	String color() {
+		// TODO Auto-generated method stub
+		return "red";
+	}
+
 }
