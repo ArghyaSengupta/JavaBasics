@@ -14,7 +14,8 @@ public class StreamAPIEx {
       // Count empty strings
       List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
       System.out.println("List: " +strings);
-      long count = getCountEmptyStringUsingJava7(strings);
+      //Long is the wrapper class for long: large data type
+      long count = getCountEmptyStringUsingJava7(strings);//understand?
 		
       System.out.println("Empty Strings: " + count);
       count = getCountLength3UsingJava7(strings);
@@ -54,17 +55,22 @@ public class StreamAPIEx {
      ////////////////////////////////////  Java 8 Stream ////////
       System.out.println("Using Java 8: ");
       System.out.println("List: " +strings);
-		
+		//stream(): converts collection to stream
+      //filter: filters the data on string collection
+      //.isEmpty():find the empty strings
+      //.count: gives the value of the empty string count
       count = strings.stream().filter(string->string.isEmpty()).count();
       System.out.println("Empty Strings: " + count);
 		
       count = strings.stream().filter(string -> string.length() == 3).count();
       System.out.println("Strings of length 3: " + count);
 		
-      filtered = strings.stream().filter(string ->!string.isEmpty()).collect(Collectors.toList());
+      filtered = strings.stream().filter(string ->!string.isEmpty()).
+    		  collect(Collectors.toList());
       System.out.println("Filtered List: " + filtered);
 		
-      mergedString = strings.stream().filter(string ->!string.isEmpty()).collect(Collectors.joining(", "));
+      mergedString = strings.stream().filter(string ->!string.isEmpty()).
+    		  collect(Collectors.joining(", "));
       System.out.println("Merged String: " + mergedString);
 		
       squaresList = numbers.stream().map( i ->i*i).distinct().collect(Collectors.toList());
@@ -88,11 +94,12 @@ public class StreamAPIEx {
    private static int getCountEmptyStringUsingJava7(List<String> strings) {
       int count = 0;
 
+      //for each loop
       for(String string: strings) //fail fast iterator
       {
 		
          if(string.isEmpty()) {
-            count++;
+            count++;//increment the count variable
          }
       }
       return count;
@@ -111,7 +118,7 @@ public class StreamAPIEx {
    }
 	
    private static List<String> deleteEmptyStringsUsingJava7(List<String> strings) {
-      List<String> filteredList = new ArrayList<String>();
+      List<String> filteredList = new ArrayList<String>();//new list
 		
       for(String string: strings) 
       {
