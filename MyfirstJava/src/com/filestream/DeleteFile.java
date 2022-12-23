@@ -8,7 +8,8 @@ public class DeleteFile {
 		// TODO Auto-generated method stub
 
 		
-		File file= new File("/Users/argsengu/eclipse-workspace/MyfirstJava/FileSystem/src/c.txt");
+		File file= 
+	    new File("/Users/argsengu/eclipse-workspace/MyfirstJava/FileSystem/src/c.txt");
 		
 		if(file.delete()) {
 			

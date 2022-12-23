@@ -1,3 +1,4 @@
+/.DS_Store
 /A.class
 /A1.class
 /Animal.class
@@ -26,14 +27,12 @@
 /TestInterface.class
 /TestMultilevelInheritence.class
 /User.class
-/a.txt
+/b.txt
 /collectionspackage/
 /com/
 /db/
 /java8/
 /practice/
-/printable.class
 /searchandsort/
 /test/
-/.DS_Store
-/b.txt
+/printable.class
