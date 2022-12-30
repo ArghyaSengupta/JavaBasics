@@ -18,9 +18,13 @@ public class MR {
     //MR mr=new MR();
     public static void main(String[] args) {  
         // Referring static method  
-        Sayable sayable = MR::saySomething;  //MR mr= new MR(), mr.saySomething();
+        Sayable sayable = MR::saySomething;  
+        //MR mr= new MR();
+        //mr.saySomething();
         // Calling interface method  
-        sayable.say();  
+        sayable.say();//FI when we have 1 abstract method:
+        //to refer to that common behaviour
+        //calling that behaviour
         
         Sayable2 sayable2 = MR::saySomething;  
         // Calling interface method  

@@ -10,10 +10,11 @@ public class VoidMR {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    List<Runnable> list=new ArrayList<>();
-    list.add(VoidMR::foo);
+    List<Runnable> list=new ArrayList<>();//type of Runnable
+    list.add(VoidMR::foo);//void method added by the property of Runnable functional
+    //interface
     for(Runnable runTest:list) {
-	runTest.run();
+	runTest.run();//run the thread
    }
 	}
 	

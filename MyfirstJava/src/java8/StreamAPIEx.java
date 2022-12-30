@@ -59,7 +59,7 @@ public class StreamAPIEx {
       //filter: filters the data on string collection
       //.isEmpty():find the empty strings
       //.count: gives the value of the empty string count
-      count = strings.stream().filter(string->string.isEmpty()).count();
+      count = strings.stream().filter(object->object.isEmpty()).count();
       System.out.println("Empty Strings: " + count);
 		
       count = strings.stream().filter(string -> string.length() == 3).count();
@@ -77,7 +77,8 @@ public class StreamAPIEx {
       System.out.println("Squares List: " + squaresList);
       System.out.println("List: " +integers);
 		
-      IntSummaryStatistics stats = integers.stream().mapToInt((x) ->x).summaryStatistics();
+      IntSummaryStatistics stats = integers.stream().
+    		  mapToInt((x) ->x).summaryStatistics();
 		
       System.out.println("Highest number in List : " + stats.getMax());
       System.out.println("Lowest number in List : " + stats.getMin());

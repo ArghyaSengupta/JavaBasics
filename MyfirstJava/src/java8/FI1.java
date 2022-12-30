@@ -9,6 +9,9 @@ public class FI1 {
 		
 		FI1 a1= new FI1();
 		// TODO Auto-generated method stub
+		//b:place holder/data holder/object
+		//b=1 : accept () sends the value to the consumer
+		//consumer applies that value for b
 		Consumer<Integer> display = b -> System.out.println(b);
 
 		
@@ -24,8 +27,8 @@ public class FI1 {
  
         // Consumer to display a list of numbers
         Consumer<List<Integer> >
-            dispList = list -> list.stream().forEach(a -> System.out.print(a + " "));
- 
+            dispList = list -> list.stream().forEach(a -> System.out.print(a + " "));//iteration
+            dispList = list -> list.stream().forEachOrdered(a -> System.out.print(a + " "));//iteration with ordering
         
         List<Integer> list = new ArrayList<>();
         list.add(1);

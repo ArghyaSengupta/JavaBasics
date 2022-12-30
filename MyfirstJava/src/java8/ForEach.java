@@ -68,6 +68,7 @@ public class ForEach implements TestForEach{
         gamesList2.add("Chess");  
         gamesList2.add("Hocky");  
         System.out.println("------------Iterating by passing lambda expression---------------");  
+        //iteration through the members along with their ordering
         gamesList2.stream().forEachOrdered(games -> System.out.println(games)); 
         System.out.println("------------Iterating by passing method reference---------------");  
         gamesList2.stream().forEachOrdered(System.out::println);  
