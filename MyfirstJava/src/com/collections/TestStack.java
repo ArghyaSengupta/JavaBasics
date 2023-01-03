@@ -15,6 +15,7 @@ public class TestStack {
 		Stack<String> stack= new Stack<String>();
 		stack.push("Ravi");//
 		stack.push("Ram");//
+		//stack.pop();
 		stack.push("pk");
 		stack.pop();//indicate addition of elements is done and element
 		//is removed

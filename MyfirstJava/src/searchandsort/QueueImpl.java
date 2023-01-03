@@ -8,7 +8,7 @@ import java.util.Queue;
 public class QueueImpl {
 
 	public static void main(String[] args) {
-		Queue<Integer> q = new LinkedList<>();// queue is a type of linkedlist
+		Queue<Integer> q = new LinkedList<Integer>();// queue is a type of linkedlist
 		// means structure of queue has some similarity with linkedlist
 
 		// Adds elements {0, 1, 2, 3, 4} to
