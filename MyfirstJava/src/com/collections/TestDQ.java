@@ -14,8 +14,8 @@ public class TestDQ {
 		dq.add("b");//String
 		
 		Deque<Integer> dq1=new ArrayDeque<Integer>();
-		dq1.add(1);
-		dq1.add(2);
+		dq1.add(1);//Integer
+		dq1.add(2);//Integer
 		
 		//for-each
 		for(String str:dq) {

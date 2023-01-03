@@ -26,6 +26,10 @@ public class TestCollection {
 		//hashing: set uses hashtable for internal implementation
 		Set<String> set=new HashSet<String>();
 		Set set2=new HashSet();
+		
+		set.add("p");
+		set2.add(0);
+		set2.add("p");
 		// list is of type arraylist
 		// arraylist is belonging to java.util package
 		// initialization

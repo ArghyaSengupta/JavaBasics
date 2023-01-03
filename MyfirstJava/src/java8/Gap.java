@@ -32,6 +32,7 @@ public class Gap {
  
         // adding five hours to the current
         // time and storing it in time2
+        //plus() accepts object ot duration type
         LocalTime time2 = time1.plus(fiveHours);
  
         System.out.println("after adding five hours " +

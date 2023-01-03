@@ -39,6 +39,12 @@ public static void ZonedTimeAndDate()
     DateTimeFormatter format =
         DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
      
+    //default format of that zone
+    //zone1: dd/mm/yyyy
+    //zoneD: yyyy-mm-dd ( we don't know the destination zone's format)
+    //business req: dd-MM-yyyy
+    //format remains the same but the date/time changes as per the destination
+    //zone
     String formatedDateTime = tokyoZone.format(format);
  
     System.out.println("formatted tokyo time zone "+

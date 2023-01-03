@@ -28,7 +28,7 @@ public class TestQueue {
 		}
 		
 		//queue.remove();//remove tech1
-		queue.poll();//remove tech 2
+		queue.poll();//remove tech 2 : head of the Queue
 		System.out.println("after removing two elements:");  
 		Iterator<String> itr2=queue.iterator();  
 		while(itr2.hasNext()){  

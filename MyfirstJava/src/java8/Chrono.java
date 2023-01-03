@@ -1,6 +1,8 @@
 package java8;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
+//temporal helps to decide what is the adjustment needed
+//w.r.t present date/time etc
  
 public class Chrono {
  

@@ -49,8 +49,13 @@ public static void LocalDateTimeApi()
     System.out.println("the republic day :"+date2);
   
     // printing date with current time.
+    //current : 30-12-2022 10:06:45
+    //month-12 : same
+    //day: 24
+    //2016
+    //in 2016 , 24th december 10:06:45 : day....
     LocalDateTime specificDate =
-        current.withDayOfMonth(24).withYear(2016);
+        current.withDayOfMonth(24).withYear(2016);//
  
     System.out.println("specific date with "+
                        "current time : "+specificDate);

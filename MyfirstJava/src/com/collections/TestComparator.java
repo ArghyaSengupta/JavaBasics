@@ -7,7 +7,7 @@ public class TestComparator {
 
 	
 	public static void main(String args[]) {
-		
+		//LinkedList?
 		ArrayList<Student> al= new ArrayList<Student>();
 		al.add(new Student(101,"v",23));
 		al.add(new Student(102,"v",2));

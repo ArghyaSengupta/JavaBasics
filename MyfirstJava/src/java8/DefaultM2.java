@@ -13,7 +13,8 @@ interface TestInterface2
   
 class DefaultM2 implements TestInterface2
 {
-    // Implementation of square abstract method
+
+	// Implementation of square abstract method
     public void square (int a)
     {
         System.out.println(a*a);
@@ -27,4 +28,5 @@ class DefaultM2 implements TestInterface2
         // Static method executed
         TestInterface2.show();
     }
+    
 }

@@ -12,15 +12,16 @@ public class JavaExceptionExample {
 		 int a[]=new int[5];
 		 a[5]=30/0;
 	 }
-	 catch(ArithmeticException e){
-		 System.out.println(e);
-		 //int data2=50/0;//exception in catch block cannot be handled.
-		 
-	 }
+	 
 	 catch(ArrayIndexOutOfBoundsException e){
 		 System.out.println("Index");
 	 }
 	 
+	 catch(ArithmeticException e){
+		 System.out.println(e);
+		// int data2=50/0;//exception in catch block cannot be handled.
+		 
+	 }
 	 catch(Exception e) {
 		 System.out.println(e.toString());
 	 }
