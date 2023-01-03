@@ -5,9 +5,11 @@ import java.util.Arrays;
 public class SortingArray {
 	public static void main(String args[]) throws Exception {
 		int array[] = { 2, 5, -2, 6, -3, 8, 0, -7, -9, 4 };
-		Arrays.sort(array);// aranging
+		Arrays.sort(array);// aranging:O(nlogn)
 		printArray("Sorted array", array);// passing 2 args
-		int index = Arrays.binarySearch(array, 2);// internal checks
+		int index = Arrays.binarySearch(array, 2);
+		// internal checks
+		//O(log n):Binary Search
 		System.out.println("Found 2 @ " + index);
 	}
 

@@ -9,7 +9,8 @@ class UncortedBS {
 		// 1st comparison
 		if (arr[n - 1] == x)
 			return "Found";
-
+//O(n)--> n is more , TS is more. Linear relation
+		//for more size of the data, we have to alter the back up
 		int backup = arr[n - 1];
 		arr[n - 1] = x;
 
