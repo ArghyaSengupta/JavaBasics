@@ -38,5 +38,4 @@ class CheckPrime {
 	}
 }
 
-//This code is contributed by divyeshrabadiya07
 
