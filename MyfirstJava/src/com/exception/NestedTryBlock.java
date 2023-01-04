@@ -1,8 +1,16 @@
 package com.exception;
+
+import java.io.IOException;
+
 public class NestedTryBlock {
 	
-	public static void main(String args[]) {
+	static void m() throws IOException{
+		
+	}
 	
+	public static void main(String args[]) throws IOException{
+	
+		m();
 		//out try block
 		try {
 		
