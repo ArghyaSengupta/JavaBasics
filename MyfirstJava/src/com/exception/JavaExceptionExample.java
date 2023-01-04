@@ -1,7 +1,7 @@
 package com.exception;
 
 public class JavaExceptionExample {
-	
+	static int i=2;
  public static void main(String args[]) {
 	 int i=50,j=0,data;
 	 try {
