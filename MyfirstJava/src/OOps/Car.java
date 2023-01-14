@@ -1,3 +1,12 @@
+
+package OOps;
+
+public abstract class Car {
+	
+	abstract int mileage();
+	abstract String color();
+
+}
 package OOps;
 //abstract key word hepls in data hiding
 //any type of car will not come to know about other type of car
