@@ -19,6 +19,7 @@ public class Multithread {
 														// thread class
 			object.start();/// t1-start,t2-start,...t8-start
 			// t1---t8: run()--start will caal run after the start stage is done
+			object.run();
 		}
 	}
 }
